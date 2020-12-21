@@ -12,7 +12,6 @@ use App\Controller\FriendsController;
 use App\Controller\SurveyController;
 use App\Controller\ResultatController;
 use App\Controller\ClassementController;
-use App\Controller\HeaderController;
 
 if (array_key_exists("page", $_GET)) {
 
@@ -106,10 +105,6 @@ if (array_key_exists("page", $_GET)) {
         case 'save-vote':
             $controller = new SurveyController();
             $controller->saveVote($_POST);
-            break;
-        case 'get-user-username':
-            $controller = new HeaderController();
-            $controller->getUser();
             break;
         case 'log-out':
             $controller = new ConnexionController();
