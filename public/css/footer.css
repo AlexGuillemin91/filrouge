@@ -1,0 +1,30 @@
+footer{
+    height: 5rem;
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+footer .info-bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1em;
+    color: white;
+}
+
+footer .fin-fond{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+    margin-bottom: 0;
+}
+
+footer .fin-fond img{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+/*#348194*/

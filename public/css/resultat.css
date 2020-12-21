@@ -1,0 +1,62 @@
+main{
+    background-image:linear-gradient(whitesmoke, var(--main-color));
+}
+
+main section{
+    display: block;
+    background-color: whitesmoke;
+    margin: 3em auto;
+    position: relative;
+    box-shadow: 1px 3px 7px var(--main-color);
+    width: 55%;
+    border-radius: 5px;
+}
+
+main section h3{
+    color:var(--secondary-color);
+    background-color: var(--main-color);
+    padding: 0.5em;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+main section h4{
+    color:var(--main-color);
+    background-color: var(--secondary-color);
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+main section .result-survey{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+main section .result-survey .survey-answers-count:first-child{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+main section .result-survey .survey-answers-count:nth-child(2){
+    background-color: rgba(255, 255, 0, 0.6);
+}
+
+main section .result-survey .survey-answers-count:nth-child(3){
+    background-color: rgba(0, 255, 255, 0.6);
+}
+
+main section .result-survey .survey-answers-count:last-child{
+    background-color: rgba(255, 0, 255, 0.6);
+}
+
+main section .result-survey .survey-answers-count{
+    width: 45%;
+    margin-bottom: 1em;
+    padding: 3em;
+    text-align: center;
+}

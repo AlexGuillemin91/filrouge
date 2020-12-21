@@ -1,0 +1,40 @@
+main{
+    background-image:linear-gradient(whitesmoke, var(--main-color));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: block;
+    background-color: whitesmoke;
+    width: 22rem;
+    margin-top: 3rem;
+    border-radius: 6px;
+}
+
+section h3{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+section input{
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid var(--main-color);
+    background-color: white;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 1rem;;
+}
+
+section h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}

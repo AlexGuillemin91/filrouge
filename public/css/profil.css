@@ -1,0 +1,63 @@
+main {
+    background-image:linear-gradient(whitesmoke, var(--main-color));
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: whitesmoke;
+    width: 25rem;
+    margin-top: 3rem;
+    border-radius: 6px;
+}
+
+form h4{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+.field {
+    display: block;
+    bottom: 1em;
+    padding: 0.5em;
+}
+
+.field label{
+    display: block;
+    padding-bottom: 0.2em;
+    font-size: 1.5em;
+    color: var(--main-color);
+}
+
+.field input {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid var(--main-color);
+    background-color: white;
+    border-radius: 6px;
+    outline: none;
+}
+
+.profil-button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.profil-button button{
+    width: 40%;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border-radius: 5px;
+}

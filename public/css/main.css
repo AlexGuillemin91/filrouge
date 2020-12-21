@@ -1,0 +1,35 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("nav.css");
+
+:root{
+    --main-color:#0d293e;
+    --secondary-color:#0DDE8A;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    min-width: 320px;
+}
+
+.page{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    margin-left: 5em;
+}
+
+.page main{
+    flex-grow:1;
+}

@@ -1,0 +1,113 @@
+main .presentation {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--main-color);
+}
+
+main .content .podium{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+main .content .podium .trophy2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 16em;
+}
+
+main .content .podium .trophy2 img{
+    margin-top: 3em;
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
+}
+
+main .content .podium .second{
+    width: 100%;
+    height: 11em;
+    display: inline-block;
+    background-color: #C0C0C0;
+}
+
+main .content .podium .trophy1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 16em;
+}
+
+main .content .podium .trophy1 img{
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
+}
+
+main .content .podium .first{
+    width: 100%;
+    height: 12em;
+    background-color: gold;
+}
+
+main .content .podium .trophy3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 16em;
+}
+
+main .content .podium .trophy3 img{
+    margin-top: 5em;
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
+}
+
+main .content .podium .third{
+    width: 100%;
+    height: 7em;
+    display: inline-block;
+    background-color: #952222;
+}
+
+@media screen and (max-width: 520px){
+    main .content .podium h3{
+        font-size: 0.55em;
+    }
+}
+
+main .content .classement{
+    display: flex;
+    justify-content: center;
+    width: 100;
+    margin-bottom: 3em;
+}
+
+main .content .classement table{
+    border: 1px solid var(--main-color);
+    text-align: center;
+    width: 75%;
+}
+
+#page main .content .classement table tr:first-child{
+    background-color:var(--main-color);
+    color: var(--secondary-color);
+  }
+
+main .content .classement table tr:nth-child(odd){
+    background-color:whitesmoke;
+  }

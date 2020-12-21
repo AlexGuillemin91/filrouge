@@ -1,0 +1,105 @@
+main {
+    background-image:linear-gradient(whitesmoke, var(--main-color));
+}
+/*#01AFD2*/
+
+main .sondage{
+    display: block;
+    background-color: whitesmoke;
+    margin: 3em auto;
+    position: relative;
+    box-shadow: 1px 3px 7px var(--main-color);
+    width: 55%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 520px){
+    main .sondage{
+        width: 75%;
+    }
+}
+
+main .sondage h3{
+    color:var(--main-color);
+    background-color: var(--secondary-color);
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+main .sondage .categorie{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 100%;
+    width: 3.5em;
+    height: 3.5em;
+    top: 0;
+    right: 0;
+    transform: translate(35%,-35%);
+}
+
+main .sondage .categorie img{
+    width: 3em;
+    height: 3em;
+    padding: 0.5em;
+}
+
+main .sondage .info{
+    display: block;
+    bottom: 1em;
+    padding: 1em;
+    font-size: 1em;
+}
+
+main .sondage .info label{
+    display: block;
+    font-size: 1.2em;
+}
+
+main .sondage .info .reponse{
+    width: 100%;
+    padding: 1em;
+    border: 1px solid var(--main-color);
+    background-color: white;
+    border-radius: 6px;
+    outline: none;
+}
+
+main .sondage .info p{
+    font-size: 1.2em;
+}
+
+main .sondage .info .radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .sondage .info .radio label{
+    margin-left: 0.5em;
+}
+
+main .sondage .info .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .sondage .info .checkbox label{
+    margin-left: 0.5em;
+}
+
+main .sondage .button{
+    width: 100%;
+    margin-top: 1em;
+    font-size: 1.3em;
+    padding: 1.1em;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border: none;
+}

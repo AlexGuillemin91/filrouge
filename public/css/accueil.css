@@ -1,0 +1,81 @@
+main .presentation {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--main-color);
+}
+
+main .content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5em;
+    flex-wrap: wrap;
+}
+
+main .sondage{
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+    box-shadow: 1px 3px 7px var(--main-color);
+    width: 16em;
+    height: 9em;
+    border-radius: 5px;
+}
+
+main .sondage:hover{
+    box-shadow: 0px 1px 3px var(--main-color);
+}
+
+main .sondage .categorie{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 100%;
+    width: 3.5em;
+    height: 3.5em;
+    top: 0;
+    right: 0;
+    transform: translate(35%,-35%);
+}
+
+main .sondage .categorie img{
+    width: 3em;
+    height: 3em;
+    padding: 0.5em;
+}
+
+main .sondage h3{
+    color:var(--main-color);
+    margin-bottom: 1em;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+main .info{
+    position: absolute;
+    bottom: 1em;
+}
+
+main .pouce{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    right: 1em;
+    bottom: 1em;
+}
+
+main .pouce img{
+    width: 1.5em;
+    height: 1.5em;
+}
