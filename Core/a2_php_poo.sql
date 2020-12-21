@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : mer. 02 déc. 2020 à 22:55
+-- Généré le : lun. 21 déc. 2020 à 20:18
 -- Version du serveur :  5.7.24
 -- Version de PHP : 7.2.19
 
@@ -43,7 +43,8 @@ CREATE TABLE `surveys` (
   `id` int(11) NOT NULL,
   `title` varchar(100) NOT NULL,
   `author_id` int(11) NOT NULL,
-  `end_date` date NOT NULL
+  `end_date` date NOT NULL,
+  `topic` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
